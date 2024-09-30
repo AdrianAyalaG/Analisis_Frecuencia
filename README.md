@@ -27,9 +27,21 @@ Masa:
  $$z = e^{sT}$$
  
  $$z = e^{jwT}$$
+ 
  En terminos de frecuencia
 
 ##  Diagramas de frecuencia
+Trabaja distintos diagramas -> Analizando
+ |----> Fase y amplitud 
 
+- Depende del diagrama:
+  Escala lineal
+  Escala logaritmica
+La mafgnitud y fase con respecto a la frecuencia
 
- 
+dB -> Se trabaja con Baudios (dB) -> Potencia o ganacia
+Analizar rangos de frecuencia muy grandes
+
+$$A_{dB} = 20log_{10}A$$
+- Magnitud con respecto a la fase
+- Coordenadas polares
