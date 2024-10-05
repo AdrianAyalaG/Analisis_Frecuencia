@@ -142,16 +142,17 @@ para la planta $$G_{(s)} = \frac{8}{s^{2} + 6}$$ con T = 0.9seg
 * $$G_{(w)} = \frac{6,48}{(\frac{1 + \frac{wT}{2}}{1 - \frac{wT}{2}})^{2} - \frac{2 + wT}{1 - \frac{wT}{2}} + 5,86}$$
 
 
-
-
-
-
 # Diagramas de Bode
-Es fundamental para optimizar el rendimiento de un sistema de lazo cerrado. Permite graficar la respuesta en frecuencia del lazo abierto [3]. 
+Es fundamental para optimizar el rendimiento de un sistema de lazo cerrado. Permite graficar la respuesta en frecuencia del lazo abierto [3]. Se obtienen a partir de los cambios que tiene el sistema en magnitud de su ganancia y su ángulo de desfase frente a cambios en la frecuencia de la señal de entrada.
 
-En caso de necesitar la ganancia en dB se usa:
+Para los sistemas discretos es importante tener en cuenta que los compensadores que se diseñan pierden eficacia en frecuencias altas, esto se debe a la transformada w.
 
-$$A_{dB} = 20 log_{10}A$$
+* Pico resonante:
+
+$$Mr = \frac{1}{2 \xi^{2}}    \xi < 0.707$$
+
+
+## Relación de las 2 respuestas
 
 
 
