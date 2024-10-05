@@ -167,14 +167,14 @@ $$G_{o} = \frac{G}{1 + G} = \frac{3}{w^2 + 0.1w + 4}$$
 
 * Se calcula el overshoot y el \xi del sistema:
 
-![Figura de prueba](IMG/Graf_.png)
+![Figura de prueba](IMG/Graf_Mat.png)
 
 Figura 2. Lazo Cerrado.
 
 
 
 
-$$Mp = \frac{1.41 - 0.751}{0.751 - 0} = $$
+$$Mp = \frac{1.41 - 0.751}{0.751 - 0} = 0.877$$
 
 
 
