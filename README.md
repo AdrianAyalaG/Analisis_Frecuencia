@@ -159,6 +159,7 @@ $$\xi \geq  0.707$$
 
 
 💡**Ejemplo 5:**
+
 $$G = \frac{3}{w^{2} + 0.1w + 1}$$
 
 * Función de transferencia lazo cerrado
@@ -169,7 +170,7 @@ $$G_{o} = \frac{G}{1 + G} = \frac{3}{w^2 + 0.1w + 4}$$
 
 ![Figura de prueba](IMG/Graf_Mat.png)
 
-Figura 2. Lazo Cerrado.
+Figura 3. Lazo Cerrado - Ejemplo 5.
 
 $$Mp = \frac{1.41 - 0.751}{0.751 - 0} = 0.877$$
 
@@ -181,6 +182,36 @@ $$Mp = 0.877$$
 $$\xi = 0.0414$$
 
 $$Mr = \frac{1}{2\sqrt{\frac{ln^2(0.877)}{\pi^2+ln^2(0.877)}}\sqrt{1 -\frac{ln^2(0.877)}{\pi^2+ln^2(0.877)}}} = 12.03 dB$$
+
+
+💡**Ejemplo 6:**
+
+$$G = \frac{10}{w^{2} + 3w + 8}$$
+
+* Función de transferencia lazo cerrado
+
+$$G_{o} = \frac{G}{1 + G} = \frac{10}{w^2 + 3w + 18}$$
+
+* Se calcula el overshoot y el \xi del sistema:
+
+![Figura de prueba](IMG/.png)
+
+Figura 4. Lazo Cerrado - Ejemplo 6.
+
+$$Mp = \frac{0.725 - 0.551}{0.551 - 0} = 0.316 $$
+
+$$\xi = \sqrt{\frac{ln^2(0.316)}{\pi^2+ln^2(0316.)}} = 0.344$$
+
+
+$$Mp = 0.316$$
+
+$$\xi = 0.344$$
+
+$$Mr = \frac{1}{2\sqrt{\frac{ln^2(0.316)}{\pi^2+ln^2(0.316)}}\sqrt{1 -\frac{ln^2(0.316)}{\pi^2+ln^2(0.316)}}} = 1.63 dB$$
+
+
+
+
 
 
 # Conclusiones
