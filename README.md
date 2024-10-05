@@ -18,15 +18,40 @@ El diagrama de Bode proporciona una visión clara del funcionamiento y comportam
 
 Para la representación matemática, las señales sinusoidales se expresan mediante fasores. Bajo la suposición de una frecuencia constante, los fasores describen la señal únicamente en términos de amplitud y fase. La entrada y salida se representa en fasores, representando el sistema como:
 
-$$\( R = A \sin(\omega kT + \theta)\)$$
+$$ R = A \sin(\omega kT + \theta)$$
+
+La frecuencia constante e implicita
 
 $$ R = A \measuredangle \varphi $$
 
--> Señal sinusoidal -> Representación en fasores -> Frecuencia constante y solamente representa la señal en términos de amplitud y fase.
+# 💡Ejemplo
+
+$$M_{o}$$, $$M_{i}$$ son magnitudes que estan representadas en el dominio de la frecuencia
+
+Masa:
+
+$$x_{(t)} = M_{o}Cos(\omega + \Theta_{0})$$
+ 
+
+Entrada:
+
+$$M_{i} \measuredangle_{i} \phi (\omega) $$
+
+Salida:
+
+$$M_{o} \measuredangle_{o} \phi (\omega) $$
+
+La relación entre la entrada y la salida determina el sistema que transforma la señal de entrada, el cual se ve afectado por los cambios en la frecuencia.
+
+$$\frac{M_{o} \measuredangle_{o} \phi (\omega)}{M_{i} \measuredangle_{i} \phi (\omega)} = M \measuredangle \phi(\omega) $$
+
 
 ---
-Masa:
- $$x_{(t)} = M_{o}Cos(\omega + \Theta_{0})$$
+
+
+
+
+
 
  ---
  Dominio $$(s)$$ o $$(z)$$
