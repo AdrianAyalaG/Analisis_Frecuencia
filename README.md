@@ -81,30 +81,18 @@ Se identifican la parte real y la parte imaginaria, destacada en azul.
 Cualquier función de transferencia puede descomponerse en sus partes real e imaginaria. De esta manera, es posible determinar la magnitud y la fase en el dominio de la frecuencia.
 Cabe aclarar que depende del diagrama:
 * Magnitud y Fase en función de la Frecuencia: Se utilizan dos escalas para su representación: la escala lineal y la escala logarítmica. Esta última se mide en decibelios
->  🔑 Definición: Los decibelios son unidades comúnmente empleadas para analizar amplios rangos de frecuencias.
+>  🔑 Definición: Los decibelios son unidades comúnmente empleadas para analizar amplios rangos de frecuencias, potencia o ganancia. 
 
 * Magnitud con respecto a la fase: Se determinan las coordenadas en el sistema polar.
 >  🔑 Las coordenadas polares pueden generar espirales.
 
+
 # Diagramas de Bode
+El diagrama de Bode es una herramienta fundamental para optimizar el rendimiento de un sistema de lazo cerrado. Permite graficar la respuesta en frecuencia del lazo abierto utilizando reglas claras y accesibles. [3]
 
 
 
 
-
-
-
-##  Diagramas de frecuencia
-Trabaja distintos diagramas -> Analizando
- |----> Fase y amplitud 
-
-- Depende del diagrama:
-  Escala lineal
-  Escala logaritmica
-La mafgnitud y fase con respecto a la frecuencia
-
-dB -> Se trabaja con Baudios (dB) -> Potencia o ganacia
-Analizar rangos de frecuencia muy grandes
 
 $$A_{dB} = 20log_{10}A$$
 - Magnitud con respecto a la fase
@@ -119,4 +107,5 @@ $$A_{dB} = 20log_{10}A$$
 ##  Referencias
 [1]. R. Hossain, “Control System By Norman nise Sixth Ed”, 2017.
 [2]	S. A. Castaño Giraldo, “Diagrama de Bode”, Control Automático Educación, 05-oct-2019. [En línea]. Disponible en: https://controlautomaticoeducacion.com/control-realimentado/1-diagrama-de-bode/. [Consultado: 28-sep-2024].
+[3]	“Diagrama de Bode”, Mathworks.com. [En línea]. Disponible en: https://la.mathworks.com/discovery/bode-plot.html. [Consultado: 28-sep-2024].
 
