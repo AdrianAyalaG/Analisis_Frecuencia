@@ -194,7 +194,7 @@ $$G_{o} = \frac{G}{1 + G} = \frac{10}{w^2 + 3w + 18}$$
 
 * Se calcula el overshoot y el \xi del sistema:
 
-![Figura de prueba](IMG/.png)
+![Figura de prueba](IMG/Mat_Graf.png)
 
 Figura 4. Lazo Cerrado - Ejemplo 6.
 
