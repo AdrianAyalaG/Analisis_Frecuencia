@@ -75,21 +75,19 @@ $$H(e^{j\omega T}) = \frac{1}{(Cos(\omega T) + jSen(\omega T)-0.1)(Cos(\omega T)
 
 $$H(e^{j\omega T}) = \frac{1}{Cos^{2}(\omega T)- Sen^{2}(\omega T)-5,1Sen(\omega T) - 5,1Cos(\omega T) + 0,5 + {\color{blue} j2Cos(\omega T)Sen(\omega T)}} $$
 
-Se identifican la parte real y la parte imaginaria, destacadas en azul
+Se identifican la parte real y la parte imaginaria, destacada en azul.
 
+# Diagrama de Frecuencia
+Cualquier función de transferencia puede descomponerse en sus partes real e imaginaria. De esta manera, es posible determinar la magnitud y la fase en el dominio de la frecuencia.
+Cabe aclarar que depende del diagrama:
+* Magnitud y Fase con respecto a la frecuencia
+** Escala lineal
+** Escala logarítmica: Se mide en decibelios, que son unidades utilizadas para analizar amplios rangos de frecuencias.
 
-
+* Magnitud con respeto a la fase
+** Coordenadas Polares
 
  ---
-
- 
- $$s = jw$$
- 
- $$z = e^{sT}$$
- 
- $$z = e^{jwT}$$
- 
- En terminos de frecuencia
 
 ##  Diagramas de frecuencia
 Trabaja distintos diagramas -> Analizando
