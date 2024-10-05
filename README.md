@@ -102,7 +102,7 @@ No es posible llevar a cabo un análisis en frecuencia de manera adecuada en le 
 
 Para una mayor comprensión de lo que se realizó anteriormente se presentan las graficas resultantes de los planos complejos $$s$$ y $$z$$, pasando de tiempo continuo a tiempo discreto.
 
-![Figura de prueba](IMG/Dom_Frec.png)
+![Figura de prueba](IMG/Graf_.png)
 
 Figura 2. Dominio en frecuencia.
 
