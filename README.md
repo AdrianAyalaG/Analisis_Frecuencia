@@ -149,15 +149,29 @@ Para los sistemas discretos es importante tener en cuenta que los compensadores 
 
 * Pico resonante:
 
-$$Mr = \frac{1}{2 \xi^{2}}    \xi < 0.707$$
+$$Mr = \frac{1}{2 \xi^{2}}$$ 
+
+$$\xi < 0.707$$
+
+$$Mr = 1$$ 
+
+$$\xi \geq  0.707$$
 
 
-## Relación de las 2 respuestas
+💡**Ejemplo 5:**
+$$G = \frac{3}{w^{2} + 0.1w + 1}$$
+
+* Función de transferencia lazo cerrado
 
 
 
 
 
+
+
+# Conclusiones
+* El más mínimo cambio en la frecuencia de entrada puede generar alteraciones en el diseño del controlador, lo que resulta en un sistema erróneo. Por ello, es crucial considerar y anticipar cualquier posible variación que pueda afectar al sistema.
+* El uso de coordenadas polares en diagramas de frecuencia, puede generar trayectorias en forma de espiral que reflejan el comportamiento dinámico de sistemas con polos y ceros en el plano complejo. Por ende, es crucial el correcto analisis para evaluar la estabilidad del sistema.
 
 
 ##  Referencias
