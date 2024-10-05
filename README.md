@@ -171,12 +171,16 @@ $$G_{o} = \frac{G}{1 + G} = \frac{3}{w^2 + 0.1w + 4}$$
 
 Figura 2. Lazo Cerrado.
 
-
-
-
 $$Mp = \frac{1.41 - 0.751}{0.751 - 0} = 0.877$$
 
+$$\xi = \sqrt{\frac{ln^2(0.877)}{\pi^2+ln^2(0.877)}} = 0.0414$$
 
+
+$$Mp = 0.877$$
+
+$$\xi = 0.0414$$
+
+$$Mr = \frac{1}{2\sqrt{\frac{ln^2(0.877)}{\pi^2+ln^2(0.877)}}\sqrt{1 -\frac{ln^2(0.877)}{\pi^2+ln^2(0.877)}}} = 12.03 dB$$
 
 
 # Conclusiones
