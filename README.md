@@ -1,5 +1,5 @@
 19 / 09 / 2024
-# Analisis en Frecuencia y Diagramas de Bode
+# Análisis en Frecuencia y Diagramas de Bode
 El análisis en frecuencia es un método utilizado para examinar cómo un sistema responde a señales sinusoidales de diferentes frecuencias. Su objetivo es comprender el comportamiento del sistema en el dominio de la frecuencia, en lugar de analizar su evolución en el tiempo [1].
 El diagrama de Bode proporciona una visión clara del funcionamiento y comportamiento de un sistema físico, ofreciendo información clave sobre su estabilidad. Esto es fundamental para el diseño de controladores eficientes en los procesos pertinentes. Además, permite identificar las zonas óptimas de operación y destacar las áreas donde es necesario evitar dinámicas no deseadas. [2]
 
@@ -26,7 +26,7 @@ $$ R = A \measuredangle \varphi $$
 
 # 💡Ejemplo
 
-![Figura de prueba](Ecuaciones_Diofanticas.png)
+![Figura de prueba](Dom_Frec.png)
 
 Figura 1. Dominio en frecuencia.
 
