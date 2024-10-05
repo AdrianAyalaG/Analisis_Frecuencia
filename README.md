@@ -163,8 +163,18 @@ $$G = \frac{3}{w^{2} + 0.1w + 1}$$
 
 * Función de transferencia lazo cerrado
 
+$$G_{o} = \frac{G}{1 + G} = \frac{3}{w^2 + 0.1w + 4}$$
+
+* Se calcula el overshoot y el \xi del sistema:
+
+![Figura de prueba](IMG/Graf_.png)
+
+Figura 2. Lazo Cerrado.
 
 
+
+
+$$Mp = \frac{1.41 - 0.751}{0.751 - 0} = $$
 
 
 
@@ -176,6 +186,8 @@ $$G = \frac{3}{w^{2} + 0.1w + 1}$$
 
 ##  Referencias
 [1]. R. Hossain, “Control System By Norman nise Sixth Ed”, 2017.
+
 [2]	S. A. Castaño Giraldo, “Diagrama de Bode”, Control Automático Educación, 05-oct-2019. [En línea]. Disponible en: https://controlautomaticoeducacion.com/control-realimentado/1-diagrama-de-bode/. [Consultado: 28-sep-2024].
+
 [3]	“Diagrama de Bode”, Mathworks.com. [En línea]. Disponible en: https://la.mathworks.com/discovery/bode-plot.html. [Consultado: 28-sep-2024].
 
