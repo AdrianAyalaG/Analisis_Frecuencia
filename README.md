@@ -30,25 +30,30 @@ $$ R = A \measuredangle \varphi $$
 
 Figura 1. Dominio en frecuencia.
 
+$$M_{o}$$, $$M_{i}$$: Magnitudes que estan representadas en el dominio de la frecuencia.
 
-$$M_{o}$$, $$M_{i}$$ son magnitudes que estan representadas en el dominio de la frecuencia
+Entrada: $$M_{i} \measuredangle_{i} \phi (\omega) $$
 
-
-Entrada:
-
-$$M_{i} \measuredangle_{i} \phi (\omega) $$
-
-Salida:
-
-$$M_{o} \measuredangle_{o} \phi (\omega) $$
+Salida: $$M_{o} \measuredangle_{o} \phi (\omega) $$
 
 La relación entre la entrada y la salida determina el sistema que transforma la señal de entrada, el cual se ve afectado por los cambios en la frecuencia.
 
 $$\frac{M_{o} \measuredangle_{o} \phi (\omega)}{M_{i} \measuredangle_{i} \phi (\omega)} = M \measuredangle \phi(\omega) $$
 
+## Sistemas en fasores
+Con base en la información presentada anteriormente, se representa una señal senoidal en forma de fasores.
 
+Se tiene en cuenta:
 
+$$A_{1} \measuredangle \varphi_{1}$$ para la entrada y $$A_{2} \measuredangle \varphi_{2}$$ para la salida del sistema
 
+* Entrada: $$A_{1} \sin(\omega_{1} kT + \varphi {1})$$
+* Salida: $$A_{2} \sin(\omega_{2} kT + \varphi {2})$$
+* $$G_{(s)} = \frac{A_{2} \measuredangle \varphi_{2}}{A_{1} \measuredangle \varphi_{1}} = M \measuredangle \varphi $$
+* $$M = \frac{A_{2}}{A_{1}}$$
+* $$\varphi = \varphi_{2} - \varphi_{1}$$
+
+Se determina que \varphi no depende de la frecuencia
 
 
 ---
