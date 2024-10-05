@@ -126,13 +126,15 @@ $$G_{z} = \frac{0.06321}{z - 03679}$$
 
 $$G_{w} = \frac{0.924(-0.05w + 1)}{w + 9.242}$$
 
-* En base a la función de transferencia obtenida se identifica un cero que no tenia el sistema inicialmente.
-* El polo y la ganancia están ubicados aproximadamente igual al sistema continuo.
-* Al disminuir el tiempo de muestro se aprecia 
+* A partir de la función de transferencia obtenida, se identifica un cero que no estaba presente en el sistema original.
+* El polo y la ganancia se encuentran ubicados aproximadamente en las mismas posiciones que en el sistema continuo.
+* Al reducir el tiempo de muestreo, se incrementa la frecuencia.
 
 
+💡**Ejemplo 4:**
 
-
+Encuentre el equivalente en términos de la variable w 
+para la planta $$G_{(s)} = \frac{8}{s^{2} + 6}$$ con T = 0.9seg
 
 
 
