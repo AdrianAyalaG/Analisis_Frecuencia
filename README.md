@@ -81,15 +81,18 @@ Se identifican la parte real y la parte imaginaria, destacada en azul.
 Cualquier función de transferencia puede descomponerse en sus partes real e imaginaria. De esta manera, es posible determinar la magnitud y la fase en el dominio de la frecuencia.
 Cabe aclarar que depende del diagrama:
 * Magnitud y Fase en función de la Frecuencia: Se utilizan dos escalas para su representación: la escala lineal y la escala logarítmica. Esta última se mide en decibelios
->  🔑 Definición: Los decibelios son unidades comúnmente empleadas para analizar amplios rangos de frecuencias, potencia o ganancia. 
+>  🔑 Definición: Los decibelios son unidades comúnmente empleadas para analizar amplios rangos de frecuencias. Ademas no son una unidad física, permiten la interpolación como potencia o ganancia. 
 
 * Magnitud con respecto a la fase: Se determinan las coordenadas en el sistema polar.
 >  🔑 Las coordenadas polares pueden generar espirales.
 
 
 # Diagramas de Bode
-El diagrama de Bode es una herramienta fundamental para optimizar el rendimiento de un sistema de lazo cerrado. Permite graficar la respuesta en frecuencia del lazo abierto utilizando reglas claras y accesibles. [3]
+Es fundamental para optimizar el rendimiento de un sistema de lazo cerrado. Permite graficar la respuesta en frecuencia del lazo abierto [3]. 
 
+En caso de necesitar la ganancia en dB se usa:
+
+$$A_{dB} = 20 log_{10}A$$
 
 
 
