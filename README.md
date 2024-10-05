@@ -24,7 +24,7 @@ La frecuencia constante e implicita
 
 $$ R = A \measuredangle \varphi $$
 
-# 💡Ejemplo 1
+💡**Ejemplo 1:**
 
 ![Figura de prueba](IMG/Dom_Frec.png)
 
@@ -61,7 +61,7 @@ Partiendo de un sistema continuo $$(s = j\omega)$$ y su equivalencia para el map
 $$z = e^{j\omega T}$$
 
 
-# 💡Ejemplo 2
+💡**Ejemplo 2:**
 * Tiempo de muestro = 0.1 seg
 
 $$H_{z} = \frac{1}{(z - 0.1)(z - 5)}$$
@@ -84,6 +84,7 @@ Cabe aclarar que depende del diagrama:
 >  🔑 Definición: Los decibelios son unidades comúnmente empleadas para analizar amplios rangos de frecuencias.
 
 * Magnitud con respecto a la fase: Se determinan las coordenadas en el sistema polar.
+>  🔑 Las coordenadas polares pueden generar espirales.
 
 # Diagramas de Bode
 
