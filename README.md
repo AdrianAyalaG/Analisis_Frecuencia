@@ -24,7 +24,7 @@ La frecuencia constante e implicita
 
 $$ R = A \measuredangle \varphi $$
 
-# 💡Ejemplo
+# 💡Ejemplo 
 
 ![Figura de prueba](Dom_Frec.png)
 
@@ -33,10 +33,6 @@ Figura 1. Dominio en frecuencia.
 
 $$M_{o}$$, $$M_{i}$$ son magnitudes que estan representadas en el dominio de la frecuencia
 
-Masa:
-
-$$x_{(t)} = M_{o}Cos(\omega + \Theta_{0})$$
- 
 
 Entrada:
 
