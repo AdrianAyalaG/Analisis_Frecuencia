@@ -112,6 +112,27 @@ La ecuación $$w = \frac{2}{T}\frac{z - 1}{z + 1}$$ representa la relación entr
 De la Figura 2 se puede interpretar que, en el plano z (Círculo Unitario), cuanto más cerca del origen (0) esté el sistema, más rápido será su comportamiento. Esto es lo opuesto a lo que sucede en el dominio del tiempo continuo y su valor máximo es 1.
 
 
+💡**Ejemplo 3:**
+
+* Se tiene un sistema en tiempo continuo:
+
+$$G_{s} = \frac{1}{s  +10}$$
+
+* Se puede obtener la aproximación discreta (ZOH), con T = 0.1 seg.
+
+$$G_{z} = \frac{0.06321}{z - 03679}$$
+
+* Se aplica la transformada $$w$$:
+
+$$G_{w} = \frac{0.924(-0.05w + 1)}{w + 9.242}$$
+
+* En base a la función de transferencia obtenida se identifica un cero que no tenia el sistema inicialmente.
+* El polo y la ganancia están ubicados aproximadamente igual al sistema continuo.
+* Al disminuir el tiempo de muestro se aprecia 
+
+
+
+
 
 
 
