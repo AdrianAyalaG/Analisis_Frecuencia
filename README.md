@@ -24,7 +24,7 @@ La frecuencia constante e implicita
 
 $$ R = A \measuredangle \varphi $$
 
-# 💡Ejemplo 
+# 💡Ejemplo 1
 
 ![Figura de prueba](Dom_Frec.png)
 
@@ -40,7 +40,6 @@ La relación entre la entrada y la salida determina el sistema que transforma la
 
 $$\frac{M_{o} \measuredangle_{o} \phi (\omega)}{M_{i} \measuredangle_{i} \phi (\omega)} = M \measuredangle \phi(\omega) $$
 
-## Sistemas en fasores
 Con base en la información presentada anteriormente, se representa una señal senoidal en forma de fasores.
 
 Se tiene en cuenta:
@@ -53,18 +52,36 @@ $$A_{1} \measuredangle \varphi_{1}$$ para la entrada y $$A_{2} \measuredangle \v
 * $$M = \frac{A_{2}}{A_{1}}$$
 * $$\varphi = \varphi_{2} - \varphi_{1}$$
 
-Se determina que \varphi no depende de la frecuencia
+Se determina que $$\varphi$$ no depende de la frecuencia
+
+## Función de transferencia en términos de la frecuencia
+
+Partiendo de un sistema continuo $$(s = j\omega)$$ y su equivalencia para el mapeo de polos y zeros $$(z = e^{sT})$$. Se determina que al colocar la variable $$z$$ en términos de frecuencia se obtiene:
+
+$$z = e^{j\omega T}$$
 
 
----
+# 💡Ejemplo 2
+* Tiempo de muestro = 0.1 seg
 
+$$H_{z} = \frac{1}{(z - 0.1)(z - 5)}$$
 
+* Se expresa en el dominio de la frecuencia:
+
+$$H(e^{j\omega T}) = \frac{1}{(e^{j\omega T} - 0.1)(e^{j\omega T} - 5)} 
+$$
+
+$$H(e^{j\omega T}) = \frac{1}{(Cos(\omega T) + jSen(\omega T)-0.1)(Cos(\omega T) + jSen(\omega T)-5)} $$
+
+$$H(e^{j\omega T}) = \frac{1}{Cos^{2}(\omega T)- Sen^{2}(\omega T)-5,1Sen(\omega T) - 5,1Cos(\omega T) + 0,5 + {\color{blue} j2Cos(\omega T)Sen(\omega T)}} $$
+
+Se identifican la parte real y la parte imaginaria, destacadas en azul
 
 
 
 
  ---
- Dominio $$(s)$$ o $$(z)$$
+
  
  $$s = jw$$
  
