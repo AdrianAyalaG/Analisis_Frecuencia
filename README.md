@@ -4,7 +4,6 @@ El análisis en frecuencia es un método utilizado para examinar cómo un sistem
 El diagrama de Bode proporciona una visión clara del funcionamiento y comportamiento de un sistema físico, ofreciendo información clave sobre su estabilidad. Esto es fundamental para el diseño de controladores eficientes en los procesos pertinentes. Además, permite identificar las zonas óptimas de operación y destacar las áreas donde es necesario evitar dinámicas no deseadas. [2]
 
 
-
 ## 1. Analisis en Frecuencia
 - Una forma de estudiar los sistemas dinámicos es observar cómo responde la salida cuando se varía la frecuencia en la entrada.
 - La señal seno $$\( R = A \sin(\omega kT + \theta) \)$$ se aplica bajo el supuesto de que el sistema tiene un comportamiento lineal.
@@ -101,7 +100,18 @@ No es posible llevar a cabo un análisis en frecuencia de manera adecuada en le 
 
   $$v = \frac{2}{T}tan(\frac{\omega T}{2})$$
 
+Para una mayor comprensión de lo que se realizó anteriormente se presentan las graficas resultantes de los planos complejos $$s$$ y $$z$$, pasando de tiempo continuo a tiempo discreto.
 
+![Figura de prueba](IMG/Dom_Frec.png)
+
+Figura 2. Dominio en frecuencia.
+
+
+
+
+
+
+La ecuación $$w = \frac{2}{T}\frac{z - 1}{z + 1}$$ presenta la relación entre la frecuencia discreta y continua.
 
 
 
