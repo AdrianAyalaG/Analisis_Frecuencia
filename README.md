@@ -136,6 +136,10 @@ $$G_{w} = \frac{0.924(-0.05w + 1)}{w + 9.242}$$
 Encuentre el equivalente en términos de la variable w 
 para la planta $$G_{(s)} = \frac{8}{s^{2} + 6}$$ con T = 0.9seg
 
+* $$G_{(s)} = \frac{8}{s^{2} + 6}$$
+* $$G_{(z)} = \frac{8}{(\frac{z-1}{0.9})^{2} + 6}$$
+* $$G_{(z)} = \frac{6,48}{z^{2} - 2z + 5,86}$$
+* $$G_{(w)} = \frac{6,48}{(\frac{1 + \frac{wT}{2}}{1 - \frac{wT}{2}})^{2} - \frac{2 + wT}{1 - \frac{wT}{2}} + 5,86}$$
 
 
 
