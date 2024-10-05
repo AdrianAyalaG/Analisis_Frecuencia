@@ -80,13 +80,13 @@ Se identifican la parte real y la parte imaginaria, destacada en azul.
 # Diagrama de Frecuencia
 Cualquier función de transferencia puede descomponerse en sus partes real e imaginaria. De esta manera, es posible determinar la magnitud y la fase en el dominio de la frecuencia.
 Cabe aclarar que depende del diagrama:
-* Magnitud y Fase con respecto a la frecuencia.
-* 
-* Escala lineal.
-* Escala logarítmica: Se mide en decibelios, que son unidades utilizadas para analizar amplios rangos de frecuencias.
-* Magnitud con respeto a la fase.
-* Coordenadas Polares.
- ---
+* Magnitud y Fase en función de la Frecuencia: Se utilizan dos escalas para su representación: la escala lineal y la escala logarítmica. Esta última se mide en decibelios
+>  🔑 Definición: Los decibelios son unidades comúnmente empleadas para analizar amplios rangos de frecuencias.
+
+* Magnitud con respecto a la fase: Se determinan las coordenadas en el sistema polar.
+
+# Diagramas de Bode
+
 
 
 
