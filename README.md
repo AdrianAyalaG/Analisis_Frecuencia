@@ -5,17 +5,22 @@ El diagrama de Bode proporciona una visión clara del funcionamiento y comportam
 
 
 
-
 ## 1. Analisis en Frecuencia
 - Una forma de estudiar los sistemas dinámicos es observar cómo responde la salida cuando se varía la frecuencia en la entrada.
-- La señal seno \( R = A \sin(\omega kT + \theta) \) se aplica bajo el supuesto de que el sistema tiene un comportamiento lineal.
-- No tener cambios en la frecuencia
------
-## Cambios
-* Salida sinusoidal con amplitud proporcional
-* Armonicos igual frecuencia que a la entreda
-* Variaciones en amplitud y frecuencia
-* Angulo de Fase y Amplitud -> Comportamiento a los cambios
+- La señal seno $$\( R = A \sin(\omega kT + \theta) \)$$ se aplica bajo el supuesto de que el sistema tiene un comportamiento lineal.
+- No se deben realizar cambios en la frecuencia de entrada. Si ocurren perturbaciones, estas provocarán variaciones en la amplitud y fase de la señal de salida.
+  
+## ¿Qué cambios se pueden producir?
+* Salida sinusoidal con amplitud proporcional.
+* Armónicos igual frecuencia que a la entreda.
+* Variaciones en amplitud y frecuencia.
+* Ángulo de Fase y Amplitud, comportamiento a los cambios.
+
+Para la representación matemática, las señales sinusoidales se expresan mediante fasores. Bajo la suposición de una frecuencia constante, los fasores describen la señal únicamente en términos de amplitud y fase. La entrada y salida se representa en fasores, representando el sistema como:
+
+$$\( R = A \sin(\omega kT + \theta)\)$$
+
+$$ R = A \measuredangle \varphi $$
 
 -> Señal sinusoidal -> Representación en fasores -> Frecuencia constante y solamente representa la señal en términos de amplitud y fase.
 
@@ -58,5 +63,5 @@ $$A_{dB} = 20log_{10}A$$
 
 ##  Referencias
 [1]. R. Hossain, “Control System By Norman nise Sixth Ed”, 2017.
-[2]	S. A. Castaño Giraldo, “Diagrama de Bode”, Control Automático Educación, 05-oct-2019. [En línea]. Disponible en: https://controlautomaticoeducacion.com/control-realimentado/1-diagrama-de-bode/. [Consultado: 05-oct-2024].
+[2]	S. A. Castaño Giraldo, “Diagrama de Bode”, Control Automático Educación, 05-oct-2019. [En línea]. Disponible en: https://controlautomaticoeducacion.com/control-realimentado/1-diagrama-de-bode/. [Consultado: 28-sep-2024].
 
