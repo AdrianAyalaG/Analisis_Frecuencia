@@ -26,6 +26,11 @@ $$ R = A \measuredangle \varphi $$
 
 # 💡Ejemplo
 
+![Figura de prueba](Ecuaciones_Diofanticas.png)
+
+Figura 1. Dominio en frecuencia.
+
+
 $$M_{o}$$, $$M_{i}$$ son magnitudes que estan representadas en el dominio de la frecuencia
 
 Masa:
@@ -44,6 +49,10 @@ $$M_{o} \measuredangle_{o} \phi (\omega) $$
 La relación entre la entrada y la salida determina el sistema que transforma la señal de entrada, el cual se ve afectado por los cambios en la frecuencia.
 
 $$\frac{M_{o} \measuredangle_{o} \phi (\omega)}{M_{i} \measuredangle_{i} \phi (\omega)} = M \measuredangle \phi(\omega) $$
+
+
+
+
 
 
 ---
