@@ -26,7 +26,7 @@ $$ R = A \measuredangle \varphi $$
 
 # 💡Ejemplo 1
 
-![Figura de prueba](Dom_Frec.png)
+![Figura de prueba](IMG/Dom_Frec.png)
 
 Figura 1. Dominio en frecuencia.
 
