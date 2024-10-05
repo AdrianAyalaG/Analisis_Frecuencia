@@ -104,15 +104,12 @@ Para una mayor comprensión de lo que se realizó anteriormente se presentan las
 
 ![Figura de prueba](IMG/Graf_.png)
 
-Figura 2. Dominio en frecuencia.
+Figura 2. Análisis frecuencia en tiempo discreto.
 
 
+La ecuación $$w = \frac{2}{T}\frac{z - 1}{z + 1}$$ representa la relación entre la frecuencia discreta y continua. 
 
-
-
-
-La ecuación $$w = \frac{2}{T}\frac{z - 1}{z + 1}$$ presenta la relación entre la frecuencia discreta y continua.
-
+De la Figura 2 se puede interpretar que, en el plano z (Círculo Unitario), cuanto más cerca del origen (0) esté el sistema, más rápido será su comportamiento. Esto es lo opuesto a lo que sucede en el dominio del tiempo continuo y su valor máximo es 1.
 
 
 
