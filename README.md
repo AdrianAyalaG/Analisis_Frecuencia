@@ -93,6 +93,13 @@ No es posible llevar a cabo un análisis en frecuencia de manera adecuada en le 
   $$w = \frac{2z - 1}{Tz + 1}$$
   
   $$z = \frac{1 + \frac{wT}{2}}{1 - \frac{wT}{2}}$$
+* Al reemplazar $$z = e^{j\omega T}$$:
+  
+  $$w = j\frac{2}{T}tan(\frac{\omega T}{2})$$
+
+* Sustituyendo $$w = jv$$:
+
+  $$v = \frac{2}{T}tan(\frac{\omega T}{2})$$
 
 
 
