@@ -151,7 +151,7 @@ Es fundamental para optimizar el rendimiento de un sistema de lazo cerrado. Perm
 
 En caso de necesitar la ganancia en dB se usa:
 
-$$A_{dB} = 20 logA$$
+$$A_{dB} = 20 log_{10}A$$
 
 
 
