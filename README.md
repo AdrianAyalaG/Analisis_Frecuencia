@@ -86,6 +86,24 @@ Cabe aclarar que depende del diagrama:
 * Magnitud con respecto a la fase: Se determinan las coordenadas en el sistema polar.
 >  🔑 Las coordenadas polares pueden generar espirales.
 
+## Efectos de parámetros dinámicos
+No es posible llevar a cabo un análisis en frecuencia de manera adecuada en le dominio del tiempo discreto. Para realziar un análisis frecuencial correcto se utiliza la transformación bilineal de Tustin, el proporciona una aproximación del comportamiento del sistema en el dominio del tiempo continuo.
+* Transformación bilineal (Tustin):
+  
+  $$w = \frac{2z - 1}{Tz + 1}$$
+  
+  $$z = \frac{1 + \frac{wT}{2}}{1 - \frac{wT}{2}}$$
+
+
+
+
+
+
+
+
+
+
+
 
 # Diagramas de Bode
 Es fundamental para optimizar el rendimiento de un sistema de lazo cerrado. Permite graficar la respuesta en frecuencia del lazo abierto [3]. 
@@ -93,13 +111,6 @@ Es fundamental para optimizar el rendimiento de un sistema de lazo cerrado. Perm
 En caso de necesitar la ganancia en dB se usa:
 
 $$A_{dB} = 20 log_{10}A$$
-
-
-
-
-$$A_{dB} = 20log_{10}A$$
-- Magnitud con respecto a la fase
-- Coordenadas polares
 
 
 
